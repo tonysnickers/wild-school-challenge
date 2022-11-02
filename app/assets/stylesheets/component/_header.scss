@@ -1,0 +1,15 @@
+.header {
+  background-color: #F4F4F4;
+
+  .header-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+      .img-header {
+        height: 35px;
+        margin-right: 6px;
+
+    }
+  }
+}
