@@ -9,7 +9,7 @@
     border-radius: 15px;
     padding: 15px;
     border-radius: 10px;
-    background: #b4b4b4;
+    background: #c8c8c8;
     -webkit-box-shadow: 5px 0px 18px 5px rgba(0,0,0,0.31);
     box-shadow: 5px 0px 18px 5px rgba(143, 143, 143, 0.31);
     font-size: 20px;
@@ -17,6 +17,21 @@
 }
 
 .content {
-  margin: 0px auto;
   justify-content: center;
+  text-align: center;
+
+  .new{
+    text-decoration: none;
+    font-size: 26px;
+    border: 1px solid;
+    padding: 5px 25px;
+    margin-top: 10px;
+    color: #F76B6B;
+    border-radius: 10px;
+    &:hover {
+      color: white;
+      background-color: #F76B6B;
+
+    }
+  }
 }

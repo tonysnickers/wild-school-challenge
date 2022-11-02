@@ -5,11 +5,11 @@
   </h1>
 </div>
 <div class="container">
-  <div class="content">
-    <h1>Ajouter un(e) Argonaute</h1>
-    <p>Nom de l'Argonaute</p>
-      <%= link_to "new", new_argonaute_path %>
-
+  <div class="content my-5">
+    <h2>Ajouter un(e) Argonaute</h2>
+      <p>Nom de l'Argonaute</p>
+      <%= link_to "Clicker ici", new_argonaute_path, "data-controller": "turbo", class:'new' %>
+      <%= turbo_frame_tag "remote_modal" %>
   </div>
     <ul class="grid">
       <% @argonautes.each do |argo| %>
@@ -17,3 +17,6 @@
       <% end %>
     </ul>
 </div>
+<footer>
+  <p>Réalisé par Jason en Anthestérion de l'an 515 avant JC</p>
+</footer>

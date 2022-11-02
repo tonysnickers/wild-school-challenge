@@ -5,6 +5,6 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
-Argonaute.create!(name: "hello")
-Argonaute.create!(name: "toto")
-Argonaute.create!(name: "mendy")
+Argonaute.create!(name: "Eleftheria")
+Argonaute.create!(name: "Gennadios")
+Argonaute.create!(name: "Lysimachos")
