@@ -1,0 +1,2 @@
+module ArgonautesHelper
+end
