@@ -1,15 +1,15 @@
 <div class="header">
   <h1 class="header-content">
-    <img class="img-header" src="https://www.wildcodeschool.com/assets/logo_main-e4f3f744c8e717f1b7df3858dce55a86c63d4766d5d9a7f454250145f097c2fe.png" alt="Wild Code School logo" />
-    Les Argonautes
+    <img class="img-header" src="https://www.wildcodeschool.com/assets/logo_main-e4f3f744c8e717f1b7df3858dce55a86c63d4766d5d9a7f454250145f097c2fe.png"alt="Wild Code School logo"/>
+      Les Argonautes
   </h1>
 </div>
 <div class="container">
   <div class="content my-5">
     <h2>Ajouter un(e) Argonaute</h2>
       <p>Nom de l'Argonaute</p>
-      <%= link_to "Clicker ici", new_argonaute_path, "data-controller": "turbo", class:'new' %>
-      <%= turbo_frame_tag "remote_modal" %>
+        <%= link_to "Clicker ici", new_argonaute_path, "data-controller": "turbo", class:'new' %>
+        <%= turbo_frame_tag "remote_modal" %>
   </div>
     <ul class="grid">
       <% @argonautes.each do |argo| %>
